@@ -1,0 +1,5 @@
+To install,
+  Help -> Software Updates -> Find and Install
+    (In Install/Update dialog)  select 'Search for new features to install' radio button
+    (In Install dialog)         click  'New Remote Site' button
+    (In New Update Site dialog) input http://libcontainer.sourceforge.net/updates/

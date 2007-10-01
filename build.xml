@@ -18,7 +18,8 @@
 
   <property name="appName" value="LibContainer"/>
   <property name="target-jar" value="${appName}.jar"/>
-  <property name="deploy-dir" value="mtadashi@dbpowder.sourceforge.net:www/htdocs/etc/libcontainer/updates"/>
+  <property name="deploy-dir" value="mtadashi@projects.sourceforge.net:www/libcontainer/htdocs/updates"/>
+  <property name="www-dir" value="mtadashi@projects.sourceforge.net:www/libcontainer/htdocs"/>
 
   <property name="plugins-id" value="org.dbpowder.plugins.libcontainer"/>
   <property name="features-id" value="org.dbpowder.features.libcontainer"/>
@@ -38,11 +39,28 @@
   <target name="build-all" depends="build-plugin-release" />
 
   <target name="deploy">
-    <exec executable="scp" dir="${site-home}/">
+    <delete dir="${site-home}/../tmp" />
+    <mkdir dir="${site-home}/../tmp" />
+    <copy todir="${site-home}/../tmp">
+      <fileset dir="${site-home}">
+        <exclude name="**/.svn"/>
+        <include name="**/*"/>
+      </fileset>
+    </copy>
+    <exec executable="scp" dir="${site-home}/../tmp">
   		<arg value="-r"/>
   		<arg value="*"/>
   		<arg value="${deploy-dir}"/>
     </exec>
+    <delete dir="${site-home}/../tmp" />
+  	<!--
+    <scp todir="${deploy-dir}">
+      <fileset dir="${site-home}">
+        <exclude name="**/.svn"/>
+        <include name="**/*"/>
+      </fileset>
+    </scp>
+  	-->
   </target>
 
   <target name="build-plugin-xml">
