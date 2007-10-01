@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+<!--
+<?eclipse version="3.2"?>
+-->
+
+   <extension
+         id="org.dbpowder.plugins.LIB_CONTAINER"
+         point="org.eclipse.jdt.core.classpathContainerInitializer">
+      <classpathContainerInitializer
+            class="org.dbpowder.plugins.libcontainer.LibContainerInitializer"
+            id="org.dbpowder.plugins.LIB_CONTAINER">
+      </classpathContainerInitializer>
+   </extension>
+   <extension
+         point="org.eclipse.jdt.ui.classpathContainerPage">
+      <classpathContainerPage
+            name="Library Container - Project Folder"
+            class="org.dbpowder.plugins.libcontainer.LibContainerPageProject"
+            id="org.eclipse.pde.core.requiredPlugins">
+      </classpathContainerPage>
+      <classpathContainerPage
+            name="Library Container - Filesystem Folder"
+            class="org.dbpowder.plugins.libcontainer.LibContainerPageFileSys"
+            id="org.eclipse.pde.core.requiredPlugins">
+      </classpathContainerPage>
+   </extension>
+</plugin>

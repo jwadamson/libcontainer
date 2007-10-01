@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description url="index.html">update site of Library Folder ClasspathContainer @version@.</description>
+   <feature url="features/org.dbpowder.features.libcontainer_@version@.jar" id="org.dbpowder.features.libcontainer" version="@version@">
+      <category name="cat"/>
+   </feature>
+   <category-def name="cat" label="Library Folder ClasspathContainer @version@">
+      <description>Library Folder ClasspathContainer @version@</description>
+   </category-def>
+   
+</site>

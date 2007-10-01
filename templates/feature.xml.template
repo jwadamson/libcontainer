@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.dbpowder.features.libcontainer"
+      label="Library Folder ClasspathContainer"
+      version="@version@"
+      provider-name="insomniq.com &amp; dbpowder.org">
+
+   <description url="http://sourceforge.net/projects/libcontainer/">
+Eclipse 3.x plugin of Library Folder ClasspathContainer
+(http://www.eclipse-plugins.info/eclipse/plugin_details.jsp?id=409).
+This plugin will add all .jar and .zip files of a folder to you classpath.
+   </description>
+
+   <copyright url="http://sourceforge.net/projects/libcontainer/">
+   Copyright (c) 2007 insomniq.com &amp; dbpowder.org. All rights reserved.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/cpl-v10.html">
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: CPL 1.0
+ *
+ * This program and the accompanying materials
+ * are made available under the terms of the Common Public License v1.0
+ * which accompanies this distribution. You may obtain a copy of the License at
+ *   http://www.eclipse.org/legal/cpl-v10.html
+ *
+ * Software distributed under the License is distributed on an &quot;AS IS&quot; basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * ***** END LICENSE BLOCK ***** */
+   </license>
+
+   <url>
+      <update label="Library Folder ClasspathContainer updates" url="http://libcontainer.sourceforge.net/updates/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.debug.ui"/>
+      <import plugin="org.eclipse.debug.core"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jdt.launching"/>
+      <import plugin="org.eclipse.jdt.debug.ui"/>
+   </requires>
+
+   <plugin
+         id="org.dbpowder.plugins.libcontainer"
+		 download-size="@size@"
+		 install-size="@size@"
+		 version="@version@" />
+</feature>

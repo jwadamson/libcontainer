@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Library Folder ClasspathContainer, an Eclipse plugin</title>
+<style type="text/css">
+ BODY, P, DIV, TD, TR, OL, UL, LI,  A {
+  font-family: Verdana, Tahoma, Arial, Helvetica;
+  font-size : 12px;
+ }
+ TT {
+  font-size : 130%;
+ }
+</style>
+</head>
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tbody>
+    <tr>
+    <td>
+     Library Folder ClasspathContainer update site.
+    </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
