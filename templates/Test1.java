@@ -8,4 +8,5 @@ ${Id}$
 $id
 $id$
 $id $
-$id:   $
+$Id$
+$Id$
