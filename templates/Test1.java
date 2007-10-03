@@ -3,10 +3,10 @@ $Date$
 $Author$
 $Rev$
 $URL$
-$id $date $author
+$Id $Date $Author
 ${Id}$
-$id
-$id$
-$id $
+$Id
+$Id$
+$Id $
 $Id$
 $Id$
