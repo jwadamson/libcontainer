@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description url="index.html">update site of Library Folder ClasspathContainer 1.1.0.20071001_4.</description>
-   <feature url="features/org.dbpowder.features.libcontainer_1.1.0.20071001_4.jar" id="org.dbpowder.features.libcontainer" version="1.1.0.20071001_4">
+   <description url="index.html">update site of Library Folder ClasspathContainer 1.1.0.20071003_1.</description>
+   <feature url="features/org.dbpowder.features.libcontainer_1.1.0.20071003_1.jar" id="org.dbpowder.features.libcontainer" version="1.1.0.20071003_1">
       <category name="cat"/>
    </feature>
-   <category-def name="cat" label="Library Folder ClasspathContainer 1.1.0.20071001_4">
-      <description>Library Folder ClasspathContainer 1.1.0.20071001_4</description>
+   <category-def name="cat" label="Library Folder ClasspathContainer 1.1.0.20071003_1">
+      <description>Library Folder ClasspathContainer 1.1.0.20071003_1</description>
    </category-def>
    
 </site>

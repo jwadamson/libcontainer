@@ -24,7 +24,7 @@
   <property name="plugins-id" value="org.dbpowder.plugins.libcontainer"/>
   <property name="features-id" value="org.dbpowder.features.libcontainer"/>
 
-  <property name="version" value="1.1.0.20071001_4"/>
+  <property name="version" value="1.1.0.20071003_1"/>
   <property name="size" value="0"/>
 
 

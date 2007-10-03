@@ -20,10 +20,20 @@
     <td>
 Library Folder ClasspathContainer update site.<br>
 <pre>
+[Install]
   Help -&gt; Software Updates -&gt; Find and Install
     (In Install/Update dialog)  select 'Search for new features to install' radio button
     (In Install dialog)         click  'New Remote Site' button
     (In New Update Site dialog) input <a href="http://libcontainer.sourceforge.net/updates/">http://libcontainer.sourceforge.net/updates/</a>
+
+[Usage]
+  (In properties dialog for your project)
+    - select 'Java Build Path'
+    - select 'Libraries' tab
+    - click  'Add Library' button 
+  (In Add Library dialog)
+    - choose 'Library Container'
+    - choose the folder
 </pre>
 <br>
 To obtain source codes, visit <a href="http://sourceforge.net/projects/libcontainer/">http://sourceforge.net/projects/libcontainer/</a>
