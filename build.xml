@@ -18,13 +18,13 @@
 
   <property name="appName" value="LibContainer"/>
   <property name="target-jar" value="${appName}.jar"/>
-  <property name="deploy-dir" value="mtadashi@projects.sourceforge.net:www/libcontainer/htdocs/updates"/>
+  <property name="deploy-dir" value="mtadashi@projects.sourceforge.net:www/libcontainer/htdocs/updates.newest"/>
   <property name="www-dir" value="mtadashi@projects.sourceforge.net:www/libcontainer/htdocs"/>
 
   <property name="plugins-id" value="org.dbpowder.plugins.libcontainer"/>
   <property name="features-id" value="org.dbpowder.features.libcontainer"/>
 
-  <property name="version" value="1.1.0.20071003_1"/>
+  <property name="version" value="1.1.0.20071021_1"/>
   <property name="size" value="0"/>
 
 

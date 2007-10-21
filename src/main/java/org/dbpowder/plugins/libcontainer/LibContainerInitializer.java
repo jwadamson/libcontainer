@@ -84,7 +84,12 @@ public class LibContainerInitializer extends ClasspathContainerInitializer {
 				for (int i = 3; i < segArr.length; i++) {
 					buf.append('/').append(PluginUtils.deNormalizePath(segArr[i]));
 				}
-				libPath = buf.toString();
+				// if 2nd char is ':', platform is windows
+				if (isFileSys && buf.indexOf(":")!=1){
+					libPath = "/"+buf.toString();
+				} else {
+					libPath = buf.toString();
+				}
 			}
 		}
 		PluginUtils.log("PathInitialize: r" + isRecurse+" f"+isFileSys+" "+libPath+" v"+javaVer, 0);

@@ -2,7 +2,7 @@
 <feature
       id="org.dbpowder.features.libcontainer"
       label="Library Folder ClasspathContainer"
-      version="1.1.0.20071003_1"
+      version="1.1.0.20071021_1"
       provider-name="insomniq.com &amp; dbpowder.org">
 
    <description url="http://sourceforge.net/projects/libcontainer/">
@@ -50,5 +50,5 @@ This plugin will add all .jar and .zip files of a folder to you classpath.
          id="org.dbpowder.plugins.libcontainer"
 		 download-size="0"
 		 install-size="0"
-		 version="1.1.0.20071003_1" />
+		 version="1.1.0.20071021_1" />
 </feature>

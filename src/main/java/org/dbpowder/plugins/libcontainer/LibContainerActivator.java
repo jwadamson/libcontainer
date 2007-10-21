@@ -39,7 +39,7 @@ public class LibContainerActivator extends AbstractUIPlugin {
 			resourceBundle = null;
 		}
 
-		String s = "Activation Succeed (070926-2 - FileSys).";
+		String s = "Activation Succeed (1.1.0.20071021_1).";
 		Status status = new Status(Status.ERROR, "LibClasspathPlugin", Status.OK, s, null);
 		getDefault().getLog().log(status);
 	}
