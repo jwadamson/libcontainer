@@ -29,7 +29,8 @@
       - Search for new features to install
       - New Local Site
       - choose the [[@1]] location (copied 'site' directory)
-  4) send me the difference
-    * please send me (tadashi@dbpowder.org):
+  4) Please upload your modifications to the Tracker
+     (https://sourceforge.net/tracker/?group_id=205995)
       - the modified source code(.java)
-      - the output of 'diff' command
+      - .patch file
+        (if you cannot, the output of 'diff' command)
