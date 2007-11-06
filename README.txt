@@ -17,19 +17,20 @@
     * execute SVN update
       - The newest source is located on the SVN repository
       - (Subversive plugin is recommended. Subclipse plugin may be available...)
-  2) Rebuild
+  2) Develop your modifications
+  3) Rebuild
     * set your minor version:
       - open build.xml on this directory
       - edit the value of "version" property
     * execute "build-all" ant task
-  3) Install your minor version
+  4) Install your minor version
     * copy the directory 'buildRelease/site' to arbitrary location outside this project [[@1]]
     * Select as follows
       - Help -> Software Updates -> Find and Install
       - Search for new features to install
       - New Local Site
       - choose the [[@1]] location (copied 'site' directory)
-  4) Please upload your modifications to the Tracker
+  5) Please upload your modifications to the Tracker
      (https://sourceforge.net/tracker/?group_id=205995)
       - the modified source code(.java)
       - .patch file
