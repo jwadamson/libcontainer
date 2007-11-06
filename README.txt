@@ -17,7 +17,7 @@
     * execute SVN update
       - The newest source is located on the SVN repository
       - (Subversive plugin is recommended. Subclipse plugin may be available...)
-  2) Develop your modifications
+  2) Implement your modifications
   3) Rebuild
     * set your minor version:
       - open build.xml on this directory
